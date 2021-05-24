@@ -3,7 +3,9 @@ import axios from "axios";
 
 const ERR_OK = 0;
 const baseURL =
-  process.env.NODE_ENV === "production" ? "https://temp2.com/music-next/" : "/";
+  process.env.NODE_ENV === "production"
+    ? "https://music.rcjj.xyz/music-next/"
+    : "/";
 
 axios.defaults.baseURL = baseURL;
 
