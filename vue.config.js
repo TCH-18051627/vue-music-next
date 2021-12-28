@@ -15,6 +15,7 @@ module.exports = {
   },
   devServer: {
     // app是express的一个实例
+    // before方法在所有其他node中间件执行前执行自定义的中间件
     before(app) {
       registerRouter(app);
     }

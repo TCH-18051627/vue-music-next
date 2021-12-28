@@ -26,8 +26,8 @@
 // 2. 函数
 // 通过返回值的 value 属性获取响应式的值 ，修改也需要对 .value进行修改。
 // 3. 获取元素
-// 在Vue2.x通过给元素添加ref=‘xxx’,,然后使用refs.xxx的方式来获取元素
-// 在Vue3.x中我们也可以通过ref来获取元素
+// 在Vue2.x通过给dom元素添加ref=‘xxx’,,然后使用refs.xxx的方式来获取dom元素
+// 在Vue3.x中我们也可以通过ref来获取dom元素
 import { ref } from "vue";
 import useSlider from "./use-slider";
 

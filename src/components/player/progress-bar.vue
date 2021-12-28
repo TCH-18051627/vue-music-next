@@ -50,7 +50,7 @@ export default {
     },
   },
   created() {
-    // 放在created中而不是data中是因为这里并不要求touch为响应式的
+    // 放在created中而不是data中是因为这里并不要求touch为响应式的,touch只是作为中间存储触碰坐标的对象
     // 当不需要数据为响应式在模板中使用而又希望能够在上下文使用它时，则定义在created中
     this.touch = {};
   },
